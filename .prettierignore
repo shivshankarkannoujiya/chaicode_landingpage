@@ -1,0 +1,12 @@
+node_modules
+build
+dist
+coverage
+public
+*.min.js
+package-lock.json
+yarn.lock
+.next
+out
+.env
+.env.local
