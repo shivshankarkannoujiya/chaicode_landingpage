@@ -72,36 +72,18 @@ const Hero = () => {
 
                 <div className="w-4/7">
                     <h3 className="text-center text-xl text-gray-950 font-semibold leading-tight ">
-                        Content is everywhere, we provide a learning experience that is unmatched.
-                        Bounties, peer learning peer code reviews, Virtual hostel, Alumni Network,
-                        Doubt sessions, Group projects and so many other activities to keep you on
-                        track.
+                        Content is everywhere, we provide a learning experience that is unmatched
+                        --- Bounties, peer learning peer code reviews, Virtual hostel, Alumni
+                        Network, Doubt sessions, Group projects and so many other activities to keep
+                        you on track.
                     </h3>
                 </div>
             </motion.div>
 
-            <div className="text-center mt-10 w-4/8 border-1 border-[#d78242]  shadow-[0_4px_10px_0_#d78242] p-4 rounded-lg">
-                <motion.button
-                    whileHover={{
-                        scale: 1.05,
-                        y: -2,
-                        backgroundColor: "#cf6f1e",
-                        boxShadow: "0 8px 24px rgba(0, 0, 0, 0.15)",
-                    }}
-                    whileTap={{
-                        scale: 0.05,
-                        y: 0,
-                        boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)",
-                    }}
-                    transition={{
-                        type: "spring",
-                        stiffness: 250,
-                        damping: 18,
-                    }}
-                    className="bg-[#d78242] text-white border-none hover:bg-[#d78242] transition-all duration-300 px-10 py-5 w-4/8 text-2xl font-medium  hover:shadow-lg cursor-pointer shadow-[0_4px_10px_0_#d78242] rounded-lg"
-                >
+            <div className="text-center mt-10 w-4/6 ">
+                <button className="border-[1px] border-[#d78242] shadow-[0_4px_10px_0_#d78242] p-6 rounded-lg w-1/2 text-xl font-semibold text-[#d78242] cursor-pointer">
                     Check all Live Cohorts
-                </motion.button>
+                </button>
             </div>
         </motion.main>
     );

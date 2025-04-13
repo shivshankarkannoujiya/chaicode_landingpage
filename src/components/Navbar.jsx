@@ -32,10 +32,11 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="flex items-center justify-between p-5 border-b-2 border-black bg-white"
+            className="flex items-center justify-between p-5 border-b-[1px] border-black bg-white"
         >
             <div>
-                <img src="public\images\chaicode-black.png" alt="logo" className="w-40 h-auto" />
+                {/* <img src="\images\chaicode-black.png" alt="logo" className="w-40 h-auto" /> */}
+                <h1 className="text-2xl font-bold">LOGO</h1>
             </div>
 
             <div className="border-2 border-black px-5 py-3 items-center rounded-full">
